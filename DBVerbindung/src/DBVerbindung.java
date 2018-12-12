@@ -1,5 +1,7 @@
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.Date;
+
 
 
 public class DBVerbindung {
@@ -56,7 +58,44 @@ public class DBVerbindung {
 
         System.out.println(arrTab);
 
-        // TODO Auto-generated method stub
+        //Aufgabe2
+
+//            String sqlInsert = "Insert into kunde (vorname,nachname,email ) " +
+//                    "values ('"+vorname+ i +"','"+nachname+ i + "','"+email+i+".com')";
+
+
+            try ( Connection con =DBVerbindung.getConnection()) {
+
+                String sqlInsert = "Insert into kunde (vorname,nachname,email ) " +
+                        "values (?,?,?)";
+
+                Long lo1 = new Date().getTime();
+                PreparedStatement prep = con.prepareStatement(sqlInsert);
+
+                for (int i = 0 ; i<1000 ; i++) {
+                    String vorname = "Verena";
+                    String nachname = "Vetter";
+                    String email = "vetter@email";
+                    prep.setString(1, vorname + i);
+                    prep.setString(2, nachname + i);
+                    prep.setString(3, email + i + ".com");
+                    prep.executeUpdate();
+                }
+
+                Long lo2 = new Date().getTime();
+                Long lo3 = lo2- lo1;
+                System.out.println(lo3);
+
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+
+
+        }
+
+
+
+
 
 //        String url = "jdbc:mysql://localhost:3306/KundenDBA";
 //        String user= "root";
@@ -99,6 +138,6 @@ public class DBVerbindung {
 //
     }
 
-}
+
 
 
