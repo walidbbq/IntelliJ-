@@ -78,77 +78,35 @@ public class KundeWork {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        if (! (sKTemp.size()==kunden.size()))
+            kunden=sKTemp;
+        else {
         for (Kunde kunde : kunden) {
-          if  (!sKTemp.contains(kunde)) {
-              kunden=sKTemp;
-              verg=true;
+            if (!sKTemp.contains(kunde)) {
+                kunden = sKTemp;
+                verg = true;
+            }
+//          }
+//
+//        }
 
-          }
-
+//        if (verg)
+//            System.out.println("die Kundeliste wurde aktualisiert!");
+//        else
+//            System.out.println("Die Daten sind up to Date! ");
         }
-
-        if (verg)
-            System.out.println("die Kundeliste wurde aktualisiert!");
-        else
-            System.out.println("Die Daten sind up to Date! ");
-
+        }
     }
 
 
     static Kunde sucheKundeNachVOrNachname(String vorname, String nachname) {
         for (Kunde kTemp : kunden) {
-            if (  (kTemp.getVorname().equals(vorname)) &&
-                 (kTemp.getNachname().equals(nachname)) )
+            if ((kTemp.getVorname().equals(vorname)) &&
+                    (kTemp.getNachname().equals(nachname)))
                 return kTemp;
         }
         return new Kunde();
     }
 
-//    static void pruefeAufNeueKunden() {
-////        Set<Kunde> sKTemp = new HashSet<>();
-////        boolean verg = false;
-////
-////        String sql = "SELECT  * FROM kunde";
-////        try {
-////            PreparedStatement prep = erstelleVerbindung().prepareStatement(sql);
-////            ResultSet rs = prep.executeQuery();
-////
-////            while (rs.next()) {
-////                //Kunde Tabelle aus Db auslesen
-////                int kid = rs.getInt("kid");
-////                String nachname = rs.getString("nachname");
-////                String vorname = rs.getString("vorname");
-////                String email = rs.getString("email");
-////
-////                //Objekt Kunde erzeugen und ausfüllen
-////                Kunde kTemp = new Kunde(kid, vorname, nachname, email);
-////
-////                //Objekte vergleichen
-////                for (Kunde k : kunden) {
-////                    if (!k.equals(kTemp)) {
-////                        sKTemp.add(kTemp);
-////                        verg = true;
-////                    } else {
-//////                        System.out.println("Die Daten sind up to Date! ");
-////                        verg = false;
-////                    }
-////
-////                }
-////
-////                //Kunde dem Set hinzufügen
-////                if (!verg) {
-////                    System.out.println(verg);
-////                    kunden = sKTemp;
-////                    System.out.println("die Kundeliste wurde aktualisiert!");
-////                } else {
-////                    System.out.println("Die Daten sind up to Date! ");
-////                }
-////            }
-////
-////
-////        } catch (SQLException e) {
-////            e.printStackTrace();
-////        }
-////    }
-
 }
+
