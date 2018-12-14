@@ -78,7 +78,7 @@ import java.util.ArrayList;
 
     @Override
      public int hashCode() {
-        return email.length();
+        return kid + email.hashCode() + Vorname.hashCode() + Nachname.hashCode();
     }
 
 }

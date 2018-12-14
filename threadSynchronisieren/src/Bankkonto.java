@@ -21,8 +21,8 @@ public class Bankkonto {
 
     public synchronized void  ueberweisen (double betrag) {
         NumberFormat nf =  NumberFormat.getCurrencyInstance();
-        this.setKontostand(this.getKontostand()+betrag);
-        System.out.println(",, Betrag über " + betrag + " wurde dem Konto getgeschrieben");
+        setKontostand(getKontostand()+betrag);
+        System.out.println(",, Betrag über " + nf.format(betrag )+ " wurde dem Konto getgeschrieben");
         System.out.println("Neuer Kontostand: " +nf.format(getKontostand()));
 
     }

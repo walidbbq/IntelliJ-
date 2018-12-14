@@ -5,6 +5,7 @@ public class Rezepte {
     String name;
     List<String> zutaten;
 
+    public  Rezepte () {}
     public Rezepte(String name, List<String> zutaten) {
         this.name = name;
         this.zutaten = zutaten;

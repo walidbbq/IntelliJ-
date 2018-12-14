@@ -61,6 +61,8 @@ public class Roboter1 {
 
         th1.start();
         th2.start();
+
+
     }
 }
 
