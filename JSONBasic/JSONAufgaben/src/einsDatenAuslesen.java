@@ -1,6 +1,10 @@
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+//import org.json.JSONObject;
+
+//import org.json.JSONException;
+
 
 public class einsDatenAuslesen {
 
@@ -15,6 +19,7 @@ public class einsDatenAuslesen {
                 "\"loc\": \"51.5161,7.4683\",\n" +
                 "\"postal\": \"44289\"\n" +
                 "}";
+
 
 
         JSONParser jp = new JSONParser();
