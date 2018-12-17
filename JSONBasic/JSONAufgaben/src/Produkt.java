@@ -1,4 +1,5 @@
-import org.json.JSONString;
+//import org.json.JSONString;
+import com.google.gson.Gson;
 import org.json.simple.JSONValue;
 
 import java.util.*;
@@ -97,6 +98,7 @@ public class Produkt {
                             new Produkt("Staubsauger","Dyson",230.50,true),
                             new Produkt("Staubsauger","Dyson",230.50,true)};
 
+        Gson gson = new Gson();
         String str = Produkt.jsonToString(parr);
 //        String str = JSONValue.toJSONString(parr);
 //        System.out.println(str);

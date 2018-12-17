@@ -5,7 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="json-simple-1.1" level="project" />
     <orderEntry type="module-library">
@@ -20,7 +20,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/javaLib/jason-1.3.10.jar!/" />
+          <root url="jar://$USER_HOME$/javaLib/org.json.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
