@@ -45,7 +45,7 @@ class LichtschrankeP implements Beobachtbar {
     }
     @Override
     public void benachrichtigeBeobachter() {
-        for (Beobachter b : liste) {
+         for (Beobachter b : liste) {
             b.aktualisiere(this.id);
         }
 
@@ -66,9 +66,9 @@ class AutomatischeTuerP implements Beobachter {
     }
 
     @Override
-    public void aktualisiere(int id) {
-        System.out.println("Aktualisiere kommt von id=" + id);
-        if (id==124)
+    public void aktualisiere(int s) {
+        System.out.println("Aktualisiere kommt von id=" + s);
+            if (s==124)
             this.oeffnen();	// Hier steht die Aktion, die ausgelöst wird,
         // wenn die Lichtschranke unterbrochen wird.
     }

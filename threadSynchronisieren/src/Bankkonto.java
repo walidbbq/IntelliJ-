@@ -10,6 +10,7 @@ public class Bankkonto {
         this.kontostand = kontostand;
     }
 
+
     public double getKontostand() {
         return this.kontostand;
     }

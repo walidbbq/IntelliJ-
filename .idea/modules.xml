@@ -2,24 +2,27 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../bbqaeu14/07Threads_jh/07Threads_jh.iml" filepath="$PROJECT_DIR$/../bbqaeu14/07Threads_jh/07Threads_jh.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../bbqaeu14/AnonymeKlassenLambdas_jh/AnonymeKlassenLambdas_jh.iml" filepath="$PROJECT_DIR$/../bbqaeu14/AnonymeKlassenLambdas_jh/AnonymeKlassenLambdas_jh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPattern/MVCBuecher/Controller/Controller.iml" filepath="$PROJECT_DIR$/DesignPattern/MVCBuecher/Controller/Controller.iml" />
       <module fileurl="file://$PROJECT_DIR$/DB/DB.iml" filepath="$PROJECT_DIR$/DB/DB.iml" />
       <module fileurl="file://$PROJECT_DIR$/DBThread/DBThread.iml" filepath="$PROJECT_DIR$/DBThread/DBThread.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DBVerbindung/DBVerbindung.iml" filepath="$PROJECT_DIR$/DBVerbindung/DBVerbindung.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../bbqaeu14/EqualsComparable_jh/EqualsComparable_jh.iml" filepath="$PROJECT_DIR$/../bbqaeu14/EqualsComparable_jh/EqualsComparable_jh.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HaschSetKlassErweitern/HaschSetKlassErweitern.iml" filepath="$PROJECT_DIR$/HaschSetKlassErweitern/HaschSetKlassErweitern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../bbqaeu14/InputOutputBasics_jh/InputOutputBasics_jh.iml" filepath="$PROJECT_DIR$/../bbqaeu14/InputOutputBasics_jh/InputOutputBasics_jh.iml" />
-      <module fileurl="file://$PROJECT_DIR$/IntelliJ-.iml" filepath="$PROJECT_DIR$/IntelliJ-.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../bbqaeu14/InterfacesJh/InterfacesJh.iml" filepath="$PROJECT_DIR$/../bbqaeu14/InterfacesJh/InterfacesJh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPattern/DecoratorPattern/DecoratorPattern.iml" filepath="$PROJECT_DIR$/DesignPattern/DecoratorPattern/DecoratorPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPattern/DesignPattern.iml" filepath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPattern/DecoratorPattern/DruckerBeispiel/DruckerBeispiel.iml" filepath="$PROJECT_DIR$/DesignPattern/DecoratorPattern/DruckerBeispiel/DruckerBeispiel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPattern/ObserverPattern/FahrzeugBeispiel/FahrzeugBeispiel.iml" filepath="$PROJECT_DIR$/DesignPattern/ObserverPattern/FahrzeugBeispiel/FahrzeugBeispiel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IntelliJ-.iml" filepath="$PROJECT_DIR$/.idea/IntelliJ-.iml" />
       <module fileurl="file://$PROJECT_DIR$/JSONBasic/JSONAufgaben/JSONAufgaben.iml" filepath="$PROJECT_DIR$/JSONBasic/JSONAufgaben/JSONAufgaben.iml" />
       <module fileurl="file://$PROJECT_DIR$/JSONBasic/JSONBasic.iml" filepath="$PROJECT_DIR$/JSONBasic/JSONBasic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../bbqaeu14/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" filepath="$PROJECT_DIR$/../bbqaeu14/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Rezepte/Rezepte.iml" filepath="$PROJECT_DIR$/Rezepte/Rezepte.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../bbqaeu14/StringRegex_jh/StringRegex_jh.iml" filepath="$PROJECT_DIR$/../bbqaeu14/StringRegex_jh/StringRegex_jh.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../bbqaeu14/WrapperCollections_jh/WrapperCollections_jh.iml" filepath="$PROJECT_DIR$/../bbqaeu14/WrapperCollections_jh/WrapperCollections_jh.iml" />
-      <module fileurl="file://$PROJECT_DIR$/threadSynchronisieren/threadSynchronisieren.iml" filepath="$PROJECT_DIR$/threadSynchronisieren/threadSynchronisieren.iml" />
-      <module fileurl="file://$PROJECT_DIR$/threadWaitNotify/threadWaitNotify.iml" filepath="$PROJECT_DIR$/threadWaitNotify/threadWaitNotify.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JSONBasic/JSON_REST_API/JSON_REST_API.iml" filepath="$PROJECT_DIR$/JSONBasic/JSON_REST_API/JSON_REST_API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPattern/MVCBuecher/MVCBuecher.iml" filepath="$PROJECT_DIR$/DesignPattern/MVCBuecher/MVCBuecher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPattern/MVCBuecher/Model/Model.iml" filepath="$PROJECT_DIR$/DesignPattern/MVCBuecher/Model/Model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPattern/ObserverPattern/ObserverPattern.iml" filepath="$PROJECT_DIR$/DesignPattern/ObserverPattern/ObserverPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPattern/StrategyPattern/StrategyPattern.iml" filepath="$PROJECT_DIR$/DesignPattern/StrategyPattern/StrategyPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BBQ/StringRegex_jh/StringRegex_jh.iml" filepath="$PROJECT_DIR$/BBQ/StringRegex_jh/StringRegex_jh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Verkettet/Verkettet.iml" filepath="$PROJECT_DIR$/Verkettet/Verkettet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPattern/MVCBuecher/View/View.iml" filepath="$PROJECT_DIR$/DesignPattern/MVCBuecher/View/View.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPattern/ObserverPattern/Wetterstation/Wetterstation.iml" filepath="$PROJECT_DIR$/DesignPattern/ObserverPattern/Wetterstation/Wetterstation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPattern/StrategyPattern/Zahlungsmittel/Zahlungsmittel.iml" filepath="$PROJECT_DIR$/DesignPattern/StrategyPattern/Zahlungsmittel/Zahlungsmittel.iml" />
     </modules>
   </component>
 </project>
